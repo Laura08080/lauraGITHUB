@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi Primer Formulario</title>
 </head>
 <body>
-    <h1>logramos el taller de septiembre</h1>
+    <div style="font-family: Arial, sans-serif; text-align: center; margin-top: 50px;">
+        <h1 style="color: #2b6cb0;">Mi Primer Formulario en GitHub</h1>
+        <p>Completa los datos para unirte a mi trabajo de programación:</p>
+        
+        <form style="display: inline-block; text-align: left; background: #f7fafc; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <label style="display: block; margin-bottom: 5px; font-weight: bold;">Tu Nombre:</label>
+            <input type="text" placeholder="Ej. Laura" style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #cbd5e0; border-radius: 4px;">
+            
+            <label style="display: block; margin-bottom: 5px; font-weight: bold;">Correo Electrónico:</label>
+            <input type="email" placeholder="tu@correo.com" style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #cbd5e0; border-radius: 4px;">
+            
+            <label style="display: block; margin-bottom: 5px; font-weight: bold;">¿Qué te parece Git?</label>
+            <select style="width: 100%; padding: 8px; margin-bottom: 20px; border: 1px solid #cbd5e0; border-radius: 4px;">
+                <option>Es increíble y muy útil</option>
+                <option>Lo estoy logrando</option>
+            </select>
+            
+            <button type="button" style="width: 100%; background-color: #3182ce; color: white; padding: 10px; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;">Enviar Registro</button>
+        </form>
+    </div>
 </body>
 </html>
